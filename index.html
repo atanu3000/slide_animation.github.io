@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <main>
+            <section class="form-block" id="signUp">
+                <h2>Create Account</h2>
+                <form >
+                    <label for="user_name">Name</label>
+                    <input type="text" name="" id="user_name" required>
+                    <label for="email">Email</label>
+                    <input type="text" name="" id="email" required>
+                    <label for="password">Password</label>
+                    <input type="text" name="" id="password" required>
+                    <button type="submit" class="btn">Sign up</button>
+                </form>
+            </section>
+
+            <section class="form-block" id="signIn">
+                <h2>Log in</h2>
+                <form >
+                    <label for="email">Email</label>
+                    <input type="text" name="" id="email" required>
+                    <label for="password">Password</label>
+                    <input type="text" name="" id="password" required>
+                    <button type="submit" class="btn" >Sign in</button>
+                </form>
+            </section>
+        </main>
+        <aside>
+            <section class="login-block">
+                <h2>Already a User?</h2>
+                <button class="btn" id="login-btn" type="submit">Sign in</button>
+            </section>
+            <section class="register-block">
+                <h2>New User?</h2>
+                <button class="btn" id="register-btn" type="submit">Sign up</button>
+            </section>
+        </aside>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
